@@ -1,3 +1,8 @@
 # Personal_Website_MiguelNonaka
 ## Introduction
- * My personal website built using HTML5, CSS3 and JavaScript ES6
+* 
+## Technologies
+* JavaScript ES6
+* HTML5
+* CSS3
+## 
