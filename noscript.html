@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta http-equiv="refresh" content="2" />
+	<link rel="shortcut icon" href="Icons/lock.ico">
+	<title>No-Javascript</title>
+	<link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
+    <noscript> 
+        	<style type="text/css">
+            		.main-container {display:none;}
+            		.se-pre-con {display: none;}
+        	</style>
+	</noscript>
+	<script>
+	    $(window).load(function() 
+	    {
+		    $(location).attr('href','index.html');
+	    });
+	</script>
+	<style>
+	   .external 
+	   {
+            display: table;
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+        }
+        .middle 
+        {
+            display: table-cell;
+            vertical-align: middle;
+        }
+        .internal 
+        {
+            margin-left: auto;
+            margin-right: auto;
+            width: 400px;
+        }
+        @media (max-width: 500px)
+        {
+            .external .middle .internal p
+            {
+                font-size: 20px;
+            }
+        }
+	</style>
+    </head>
+    <body>
+        <div class="external" style="overflow: hidden;">
+            <div class="middle" style="overflow: hidden;">
+                <div class="internal" style="width: 300px; overflow: hidden;">
+    	            <center><p style="font-size: 27px; font-family: 'Berkshire Swash', cursive;">Enable Javascript!</p></center>
+                </div>
+            </div>
+    	</div>
+    	<div class="main-container"></div>
+    </body>
+</html>

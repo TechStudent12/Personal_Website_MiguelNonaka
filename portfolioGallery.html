@@ -1,0 +1,1148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ 	<noscript><meta http-equiv="refresh" content="0;URL=noscript.html" /></noscript>
+    <meta name="keywords" content="miguel, nonaka, Miguel, Nonaka, portfolio, websites, programs, miguel nonaka, Miguel Nonaka">
+    <meta name="description" content="Welcome to my portfolio page! This page was created to display my portfolio of websites and programs that I built during my spare time or for one of my university courses! Check it out, if you are interested!" />
+    <meta http-equiv="Cache-control" content="Public">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<link rel="shortcut icon" href="logo9.png">
+	<title>Portfolio</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<link href="https://fonts.googleapis.com/css2?family=Francois+One&family=Rowdies:wght@300&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" media="screen">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@300&family=Roboto&display=swap" rel="stylesheet">
+	<style>
+        body, html
+        {
+            font-family: 'Francois One', sans-serif;
+            min-width: 100%;
+            min-height: 100%;
+            background-color: orange;
+            background-size: cover;
+            overflow-x: hidden;
+            overflow-y: auto;
+            margin: 0px;
+            padding: 0px;
+        }
+        body:after 
+        {
+            content: url("../background/background2.webp") url("../background/background1.webp");
+            display: none;
+        }
+        .no-js #loader { display: none;  }
+        .js #loader { display: block; position: absolute; left: 100px; top: 0; }
+        .se-pre-con 
+        {
+        	position: fixed;
+        	left: 0px;
+        	top: 0px;
+        	width: 100%;
+        	height: 100%;
+        	z-index: 9999;
+        	background: url("../loader/loader.gif") center no-repeat #fff;
+        	background-size: 40px 40px;
+        }
+        ::-webkit-scrollbar-track
+        {
+        	border: none; 
+        	background-color: transparent; 
+        }
+        
+        ::-webkit-scrollbar
+        {
+        	width: 0px; 
+        	background-color: transparent;
+        }
+        
+        ::-webkit-scrollbar-thumb
+        {
+        	background-color: transparent;
+        	border-radius: 10px;
+        }
+        
+        ::-webkit-scrollbar-thumb:hover 
+        {
+          	background-color: #E0AC1C;
+        }
+        .main
+        {
+            font-family: 'Francois One', sans-serif;
+            display: table;
+            background-image: url("../background/background1.webp"); 
+            position: absolute; 
+            top: 0; 
+            left: 0; 
+            bottom: 0;
+            top: 0;
+            height: 100%; 
+            width: 100%;
+            overflow: auto;
+            background-size: cover;
+        	background-repeat: no-repeat; 
+	        background-position: center; 
+            margin-left: 0px;
+            margin-top: 0px;
+        }
+        .main2
+        {
+            display: table-cell;
+            vertical-align: middle;
+            max-width: 35%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .main3
+        {
+            margin-left: auto;
+            margin-right: auto;
+            max-width: 100%;
+        }
+        .main .main2 .main3 .footer-center .two #git2
+        {
+        	color: white;
+          	transform: scale(1);
+        }
+        .main .main2 .main3 .footer-center .three #git3
+        {
+        	color: white;
+          	transform: scale(1);
+        }
+        .main .main2 .main3 .footer-center .four #git4
+        {
+        	color: white;
+          	transform: scale(1);
+        }
+        .main .main2 .main3 .footer-center .five #git5
+        {
+        	color: white;
+          	transform: scale(1);
+        }
+        .main .main2 .main3 .footer-center .six #git6
+        {
+        	color: white;
+          	transform: scale(1);
+        }
+        .one #git
+        {
+        	color: white;
+          	transform: scale(1);
+        }
+        .main .main2 .main3 .footer-center .two #git2:hover
+        {
+        	color: orange;
+          	transform: scale(1.1);
+        }
+        .main .main2 .main3 .footer-center .three #git3:hover
+        {
+        	color: orange;
+          	transform: scale(1.1);
+        }
+        .main .main2 .main3 .footer-center .four #git4:hover
+        {
+        	color: orange;
+          	transform: scale(1.1);
+        }
+        .main .main2 .main3 .footer-center .five #git5:hover
+        {
+        	color: orange;
+          	transform: scale(1.1);
+        }
+        .main .main2 .main3 .footer-center .six #git6:hover
+        {
+        	color: orange;
+          	transform: scale(1.1);
+        }
+        .one #git:hover
+        {
+            color: orange;
+          	transform: scale(1.1);
+        }
+        .middle 
+        {
+        	text-align: center;
+        	margin: 0 auto;
+        	padding: 0rem;
+        }
+        .active
+        {
+	        color: orange;
+        }	
+        .inactive
+        {
+            color: white;
+        }
+        #project1, #project
+        {
+            width: 200px; 
+            height: 150px;
+            border: 5px solid white;
+            -webkit-filter: grayscale(100%);
+	        filter: grayscale(100%);
+	        -webkit-transition: .3s ease-in-out;
+	        transition: .3s ease-in-out;
+	        transform: scale(0.9);
+        }
+        /*#project1:hover
+        {
+            border: 5px solid midnightblue;
+        }*/
+        #project1:hover, #project:hover
+        {
+            -webkit-filter: grayscale(0);
+	        filter: grayscale(0);
+	        transform: scale(1.1);
+        }
+        #project2
+        {
+            width: 200px; 
+            height: 150px;
+            border: 5px solid white;
+            -webkit-filter: grayscale(100%);
+	        filter: grayscale(100%);
+	        -webkit-transition: .3s ease-in-out;
+	        transition: .3s ease-in-out;
+	        transform: scale(0.9);
+        }
+        #project2:hover
+        {
+            /*border: 5px solid midnightblue;*/
+             -webkit-filter: grayscale(0);
+	         filter: grayscale(0);
+	         transform: scale(1.1);
+        }
+        #project3
+        {
+            width: 200px; 
+            height: 150px;
+            border: 5px solid white;
+            -webkit-filter: grayscale(100%);
+	        filter: grayscale(100%);
+	        -webkit-transition: .3s ease-in-out;
+	        transition: .3s ease-in-out;
+	        transform: scale(0.9);
+        }
+        #project3:hover
+        {
+            /*border: 5px solid midnightblue;*/
+            -webkit-filter: grayscale(0);
+	         filter: grayscale(0);
+	         transform: scale(1.1);
+        }
+        .modal 
+        {
+          display: none;
+          position:  fixed; 
+          z-index: 1;
+          padding-top: 100px; 
+          left: 0;
+          top: 0;
+          bottom: 0;
+          width: 100%; 
+          height: 100%; 
+          overflow: auto; 
+          background-color: #0009;
+        }
+        .modal2 
+        {
+          display: none;
+          position: fixed; 
+          z-index: 1;
+          padding-top: 100px; 
+          left: 0;
+          top: 0;
+          bottom: 0;
+          width: 100%; 
+          height: 100%; 
+          overflow: auto; 
+          background-color: #0009;
+        }
+        .modal3
+        {
+          display: none;
+          position: fixed; 
+          z-index: 1;
+          padding-top: 100px; 
+          left: 0;
+          top: 0;
+          bottom: 0;
+          width: 100%; 
+          height: 100%; 
+          overflow: auto; 
+          background-color: #0009;
+        }
+        .modal-content 
+        {
+          background-color: white;
+          margin: auto;
+          overflow: auto;
+          padding: 20px;
+          border: 1px solid midnightblue;
+          bottom: 0;
+          left:0;
+          right:0;
+          top: 0;
+          margin-bottom: 80px;
+          max-width: 85%;
+          min-width: 85%;
+        }
+        a:visited
+        {
+            color: blue; 
+        }
+        .modal2 .modal-content p a:visited
+        {
+            color: blue; 
+        }
+        .modal .modal-content p a:visited
+        {
+            color: blue; 
+        }
+        .mySlides4, .mySlides2, .mySlides3 
+        {
+            display: none;
+        }
+        img 
+        {
+            vertical-align: middle;
+        }
+        .slideshow-container4, .slideshow-container2, .slideshow-container3
+        {
+          max-width: 100%;
+          position: relative;
+          margin: auto;
+        }
+        /*.dot, .dot2, .dot3
+        {
+          height: 15px;
+          width: 15px;
+          margin: 0 2px;
+          background-color: red;
+          border-radius: 50%;
+          display: inline-block;
+          transition: background-color 0.6s ease;
+        }
+        .active2, .active3, .active4
+        {
+          background-color: orange;
+        }*/
+        .fade4, .fade2, .fade3
+        {
+          -webkit-animation-name: fade;
+          -webkit-animation-duration: 0.4s;
+          animation-name: fade;
+          animation-duration: 0.4s;
+        }
+        /* Next & previous buttons */
+        .prev4, .next4 
+        {
+          cursor: pointer;
+          position: absolute;
+          top: 50%;
+          width: auto;
+          padding: 16px;
+          margin-top: -22px;
+          color: white;
+          font-weight: bold;
+          font-size: 18px;
+          transition: 0.1s ease;
+          border-radius: 0px;
+          user-select: none;
+        }
+        /* Position the "next button" to the right */
+        .next4 
+        {
+          right: 0;
+          border-radius: 0px;
+        }
+        /* On hover, add a black background color with a little bit see-through */
+        .prev4:hover, .next4:hover 
+        {
+          /*background-color: rgba(0,0,0,0.8);*/
+          background-color: red;
+        }
+        /* Next & previous buttons */
+        .prev2, .next2 
+        {
+          cursor: pointer;
+          position: absolute;
+          top: 50%;
+          width: auto;
+          padding: 16px;
+          margin-top: -22px;
+          color: white;
+          font-weight: bold;
+          font-size: 18px;
+          transition: 0.1s ease;
+          border-radius: 0px;
+          user-select: none;
+        }
+        /* Position the "next button" to the right */
+        .next2 
+        {
+          right: 0;
+          border-radius: 0px;
+        }
+        /* On hover, add a black background color with a little bit see-through */
+        .prev2:hover, .next2:hover 
+        {
+          /*background-color: rgba(0,0,0,0.8);*/
+          background-color: red;
+        }
+        /* Next & previous buttons */
+        .prev3, .next3 
+        {
+          cursor: pointer;
+          position: absolute;
+          top: 50%;
+          width: auto;
+          padding: 16px;
+          margin-top: -22px;
+          color: white;
+          font-weight: bold;
+          font-size: 18px;
+          transition: 0.1s ease;
+          border-radius: 0px;
+          user-select: none;
+        }
+        /* Position the "next button" to the right */
+        .next3
+        {
+          right: 0;
+          border-radius: 0px;
+        }
+        /* On hover, add a black background color with a little bit see-through */
+        .prev3:hover, .next3:hover 
+        {
+          /*background-color: rgba(0,0,0,0.8);*/
+          background-color: red;
+        }
+        #imgPMP:hover
+        {
+            filter: drop-shadow(0px 0px 5px ghostwhite);
+        }
+        @-webkit-keyframes fade 
+        {
+          from 
+          {
+              opacity: 0.5
+          } 
+          to 
+          {
+              opacity: 1
+          }
+        }
+        @keyframes fade 
+        {
+          from 
+          {
+              opacity: 0.5
+          } 
+          to 
+          {
+              opacity: 1
+          }
+        }
+        @media only screen and (max-width: 300px) 
+        {
+          .text 
+          {
+              font-size: 11px;
+          }
+        }
+        @media (max-width:1200px)
+        {
+            .main3
+            {
+                max-width: 100%;
+            }
+            h1
+            {
+                font-size: 30px;
+            }
+            h2
+            {
+                font-size: 25px;
+            }
+        }
+        @media (max-width:500px)
+        {
+            #timeDay, #timeNight
+            {
+                font-size: 15px;
+            }
+            #project1, #project
+            {
+                width: 200px; 
+                height: 150px;
+            }
+            #project2
+            {
+                width: 200px; 
+                height: 150px;
+            }
+            #project3
+            {
+                width: 200px; 
+                height: 150px;
+            }
+            h1
+            {
+                font-size: 25px;
+            }
+            h2
+            {
+                font-size: 18px;
+            }
+        }
+        * 
+        {
+          box-sizing: border-box;
+        }
+        .column 
+        {
+          float: left;
+          width: 33.33%;
+          padding: 5px;
+        }
+        .row::after 
+        {
+          content: "";
+          clear: both;
+          display: table;
+        }
+        button 
+        {
+          font-family: 'Londrina Solid', cursive;
+          position: relative;
+          height: 65px;
+          width: 150px;
+          margin: 10px 7px;
+          margin-left: 0px;
+          margin-bottom: 30px;
+          margin-top: 0px;
+          padding: 5px 5px;
+          font-weight: 0;
+          font-size: 20px;
+          letter-spacing: 2px;
+          color: red;
+          border: 2px red solid;
+          border-radius: 4px;
+          text-transform: uppercase;
+          outline: 0;
+          overflow:hidden;
+          background: none;
+          z-index: 1;
+          cursor: pointer;
+          transition:         0.08s ease-in;
+          -o-transition:      0.08s ease-in;
+          -ms-transition:     0.08s ease-in;
+          -moz-transition:    0.08s ease-in;
+          -webkit-transition: 0.08s ease-in;
+        }
+        .btn:after
+        {
+          content:"Hover Me";
+          position:absolute;
+          width:100%;
+          height:50%;
+          left:0;
+          top: 18.5px;
+          text-align:center;
+          -webkit-transition: all 400ms cubic-bezier(0.680, -0.550, 0.265, 1.550); 
+        }
+        .btn:before 
+        {
+          content:"Launch site";
+          width:100%;
+          height:50%;
+          top: 18.5px;
+          position:absolute;
+          color: white;
+          left: 0;
+          opacity: 0;
+          -webkit-transition: all 500ms cubic-bezier(0.680, -0.550, 0.265, 1.550); 
+        }
+        .btn:hover
+        {
+          background: red;
+        }
+        .btn:hover:before
+        {
+          left:0;
+          opacity:1;
+          color:#fff;
+        }
+        .btn:hover:after
+        {
+          left: 0;
+          opacity:0;
+        }
+        #p1, p, ul li
+        {
+            font-family: 'Londrina Solid', cursive;
+            font-size: 20px;
+        }
+        #myModal2
+        {
+            width: 100%; 
+        }
+        @media (max-width: 1000px)
+        {
+            #myModal2
+            {
+                width: 100%; 
+            }
+        }
+        @media (max-width: 500px)
+        {
+            #p1, p, ul li
+            {
+                font-family: 'Londrina Solid', cursive;
+                font-size: 15px;
+            }
+            button
+            {
+                height: 57px;
+                width: 120px;
+                font-size: 15px;
+            }
+        }
+        @media (max-width: 280px)
+        {
+            #project1, #project2, #project3, #project
+            {
+                width: 200px;
+                height: 150px;
+                border: 5px solid white;
+                margin-bottom: 10px;
+            }
+        }
+    </style>
+    <script type="text/javascript">
+    	$(window).on('load', function() 
+	    {
+		    $(".se-pre-con").fadeOut("slow");
+	    });
+        $(document).ready(function()
+        {
+            var timeDay = document.getElementById('timeDay');
+            var timeNight = document.getElementById('timeNight');
+            var white = true; 
+            $('.middle').click(function()
+            {
+                $('.active, .inactive').toggle();
+                if (white = !white) 
+                {
+                    $('.main').css("background-image", "url('../background/background1.webp')");
+                    $('body').css("background-color", "orange");
+                    $('html').css("background-color", "orange");
+                    timeNight.style.display = 'none';
+                    timeDay.style.display = 'block';
+                } else {
+                    $('.main').css("background-image", "url('../background/background2.webp')");
+                    $('body').css("background-color", "black");
+                    $('html').css("background-color", "black");
+                    timeDay.style.display = 'none';
+                    timeNight.style.display = 'block';
+                }
+            });
+        });
+        $(document).ready(function() {
+          $("body").on("contextmenu", function(e) {
+              return false;
+            });
+        });
+        $(document).keydown(function (e) {
+            if (e.keyCode == 123) { // Prevent F12
+                return false;
+            } else if (e.ctrlKey && e.shiftKey && e.keyCode == 73) { // Prevent Ctrl+Shift+I        
+                 return false;
+            }
+            if(e.ctrlKey && e.keyCode == 'E'.charCodeAt(0)){
+                return false;
+             }
+            if(e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)){
+                return false;
+            }
+            if(e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)){
+                return false;
+            }
+            if(e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)){
+                return false;
+            }
+            if(e.ctrlKey && e.keyCode == 'S'.charCodeAt(0)){
+                return false;
+            }
+            if(e.ctrlKey && e.keyCode == 'H'.charCodeAt(0)){
+                return false;
+            }
+            if(e.ctrlKey && e.keyCode == 'A'.charCodeAt(0)){
+                return false;
+            }
+            if(e.ctrlKey && e.keyCode == 'F'.charCodeAt(0)){
+                return false;
+            }
+            if(e.ctrlKey && e.keyCode == 'E'.charCodeAt(0)){
+                return false;
+            }
+        });
+	</script>
+</head>
+<body>
+    <div class="se-pre-con"></div>
+    <div class="main">
+        <div class="main2">
+            <div class="main3">
+                <center>
+                <div class="middle" style="margin-bottom: -10px; margin-top: 20px;">
+            		<i class="fa fa-toggle-on fa-2x active" id="on" style="cursor: pointer;"></i>
+            		<i class="fa fa-toggle-on fa-2x fa-rotate-180 inactive" id="off" style="display:none; cursor: pointer;"></i>
+	            </div> 
+	            <p id="timeDay" style="color: white; display: block; font-family: 'Rowdies', cursive;"><strong>Day Mode<br><i>“Coding like poetry should be short and concise”</i><br>― Santosh Kalwar</strong></p>
+	            <p id="timeNight" style="color: white; display: none; font-family: 'Rowdies', cursive;"><strong>Night Mode<br><i>“Every programmer is an author”</i><br>― Sercan Leylek</strong></p>
+                <h1 style="color: white; margin-top: 0px;"><strong>Portfolio</strong></h1>
+                <h2 style="position: relative; top: -20px; color: white; font-family: 'Rowdies', cursive;"><small>―<i>Current size: 3 projects</i>―</small></h2></center>
+                <center><div id="myModal2">
+                    <img id="project" src="UnwiseStudio.jpg" align="center" hspace="5" vspace="5" style="cursor: pointer;" onclick="document.getElementsByClassName('modal2')[0].style.display='block'"/>
+                    <img id="project" src="ECE297.PNG" align="center" hspace="5" vspace="5" style="cursor: pointer;" onclick="document.getElementsByClassName('modal')[0].style.display='block'" />
+                    <img id="project" src="Project3.PNG" align="center" hspace="5" vspace="5" style="cursor: pointer;" onclick="document.getElementsByClassName('modal3')[0].style.display='block'" />
+                </div></center>
+                <div id="myModal" class="modal2">
+                <div class="modal-content">
+                    <p id="p1">UNWISE STUDIO</p>
+                    <p id="p1">Status: Online</p>
+                    <p id="p1">Video Status: Not Completed</p>
+                    <button class="btn" onclick="window.location.href='https://unwisestudio.com/'"></button>
+                    <center><video controls style="cursor: crosshair; min-width: 100%; max-width: 100%; margin-left:0px; max-height: 100%; min-height: 100%;">
+                      <source src="" type="video/mp4">
+                      <source src="" type="video/ogg">
+                      Your browser does not support the video tag.
+                    </video></center>
+                    <div class="slideshow-container2">
+                    <div class="mySlides2 fade2">
+                      <img src="unwise1.PNG" style="width:100%">
+                    </div>
+                    <div class="mySlides2 fade2">
+                      <img src="unwise2.PNG" style="width:100%">
+                    </div>
+                    <div class="mySlides2 fade2">
+                      <img src="unwise3.PNG" style="width:100%">
+                    </div>
+                    <a id="prev2" class="prev2" onclick="plusSlides2(-1)">&#10094;</a>
+                    <a id="next2" class="next2" onclick="plusSlides2(1)">&#10095;</a>
+                    </div>
+                    <!--<br>
+                    <div style="text-align:center">
+                      <span class="dot2"></span> 
+                      <span class="dot2"></span> 
+                      <span class="dot2"></span> 
+                    </div>-->
+                    <!--<p>URL: </p>
+                    <ul>
+                        <li><a href="https://unwisestudio.com">https://unwisestudio.com/</a></li>
+                    </ul>-->
+                    <p>Latest Update: </p>
+                    <ul>
+                        <li>January 31, 2021</li>
+                    </ul>
+                    <p>Summary: </p>
+                    <ul>
+                        <li>This website was used to show my team's projects.</li>
+                    </ul>
+                    <p>Timestamps: </p>
+                    <ul>
+                        <li>Not Available</li>
+                        <!--<li>0:00 to 0:15<br>&nbsp;&nbsp;&#10148; Home Page</li>
+                        <li>0:15 to 0:31<br>&nbsp;&nbsp;&#10148; Mailing List</li>
+                        <li>0.31 to 0:45<br>&nbsp;&nbsp;&#10148; Feedback</li>
+                        <li>0:45 to 1:13<br>&nbsp;&nbsp;&#10148; Message</li>
+                        <li>1:13 to 1:54<br>&nbsp;&nbsp;&#10148; Sign-up</li>
+                        <li>1:54 to 2:14<br>&nbsp;&nbsp;&#10148; Music</li>
+                        <li>2:14 to 2:43<br>&nbsp;&nbsp;&#10148; Project Page</li>
+                        <li>2:43 to 3:59<br>&nbsp;&nbsp;&#10148; Comment</li>
+                        <li>3:59 to 4:10<br>&nbsp;&nbsp;&#10148; Login</li>
+                        <li>4:10 to 5:18<br>&nbsp;&nbsp;&#10148; User's Home Page</li>
+                        <li>5:18 to 5:36<br>&nbsp;&nbsp;&#10148; User's Resume Page</li>
+                        <li>5:36 to 6:11<br>&nbsp;&nbsp;&#10148; User's Comment Page</li>
+                        <li>6:11 to 6:50<br>&nbsp;&nbsp;&#10148; Password Reset</li>
+                        <li>6:50 to 7:02<br>&nbsp;&nbsp;&#10148; Music</li>-->
+                    </ul>
+                    <p>Languages / APIs / DBs: </p>
+                    <ul>
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                    <li>PHP</li>
+                    <li>jQuery</li> 
+                    <li>JavaScript</li>
+                    <li>SQL</li>
+                    <li>MySQL</li>
+                    </ul>
+                    <p>Services performed: </p>
+                    <ul>
+                    <li>100% Front-end</li>
+                    <li>100% Back-end</li>
+                    </ul>
+                    <p>Repository (Private): </p>
+                    <ul>
+                        <li><a href="https://github.com/UnwiseStudios/Project-1--UnwiseStudio-" target="_blank">View page source</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <script>
+        		   $(".modal2").click(function() {
+                      if (event.target.className == "modal2") {
+                        $(event.target).hide();
+                      }
+                    }); 
+                </script>
+                <div id="myModal" class="modal">
+                  <div class="modal-content">
+                    <p>SOBERARK</p>
+                    <p>Status: Online</p>
+                    <p>Video Status: Not Completed</p>
+                    <button class="btn" onclick="window.location.href='https://soberark.com/'"></button>
+                    <center><video controls style="cursor: crosshair; min-width: 100%; max-width: 100%; margin-left:0px; max-height: 100%; min-height: 100%;">
+                      <source src="" type="video/mp4">
+                      <source src="" type="video/ogg">
+                      Your browser does not support the video tag.
+                    </video></center>
+                    <!--<a href="#"><img src="coming.jpg" align="center" hspace="5" vspace="5" style="cursor: crosshair; min-width: 100%; max-width: 100%; margin-left:0px;"/></a>-->
+                    <!--<p>URL: </p>
+                    <ul>
+                        <li><a href="https://soberark.com/">https://soberark.com/</a></li>
+                    </ul>-->
+                    <div class="slideshow-container3">
+                    <div class="mySlides3 fade3">
+                      <img src="sober1.PNG" style="width:100%">
+                    </div>
+                    <div class="mySlides3 fade3">
+                      <img src="sober2.PNG" style="width:100%">
+                    </div>
+                    <div class="mySlides3 fade3">
+                      <img src="sober3.PNG" style="width:100%">
+                    </div>
+                    <a id="prev3" class="prev3" onclick="plusSlides3(-1)">&#10094;</a>
+                    <a id="next3" class="next3" onclick="plusSlides3(1)">&#10095;</a>
+                    </div>
+                    <!--<br>
+                    <div style="text-align:center">
+                      <span class="dot3"></span> 
+                      <span class="dot3"></span> 
+                      <span class="dot3"></span> 
+                    </div>-->
+                    <p>Latest Update: </p>
+                    <ul>
+                        <li>January 31, 2021</li>
+                    </ul>
+                    <p>Summary: </p>
+                    <ul>
+                        <li>This website is used to showcase my ECE297 project.</li>
+                    </ul>
+                    <p>Timestamps: </p>
+                    <ul>
+                        <li>Not Available</li>
+                    </ul>
+                    <p>Languages / APIs / DBs: </p>
+                    <ul>
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                    <li>jQuery</li> 
+                    <li>JavaScript</li>
+                    </ul>
+                    <p>Services performed: </p>
+                    <ul>
+                    <li>100% Front-end</li>
+                    </ul>
+                    <p>Repository (Private): </p>
+                    <ul>
+                        <li><a href="#">View page source</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <script>
+        		   $(".modal").click(function() {
+                      if (event.target.className == "modal") {
+                        $(event.target).hide();
+                      }
+                    });
+                </script>
+                <div id="myModal" class="modal3">
+                  <div class="modal-content">
+                    <p>RABBITGAMESCO</p>
+                    <p>Status: Online</p>
+                    <p>Video Status: Not Completed</p>
+                    <button class="btn" onclick="window.location.href='https://rabbitgamesco.com/'"></button>
+                    <center><video controls style="cursor: crosshair; min-width: 100%; max-width: 100%; margin-left:0px; max-height: 100%; min-height: 100%;">
+                      <source src="" type="video/mp4">
+                      <source src="" type="video/ogg">
+                      Your browser does not support the video tag.
+                    </video></center>
+                    <!--<a href="#"><img src="coming.jpg" align="center" hspace="5" vspace="5" style="cursor: crosshair; min-width: 100%; max-width: 100%; margin-left:0px;"/></a>-->
+                    <!--<p>URL: </p>
+                    <ul>
+                        <li><a href="https://rabbitgamesco.com/">https://rabbitgamesco.com/</a></li>
+                    </ul>-->
+                    <div class="slideshow-container4">
+                    <div class="mySlides4 fade4">
+                      <img src="movie.PNG" style="width:100%">
+                    </div>
+                    <div class="mySlides4 fade4">
+                      <img src="movie2.PNG" style="width:100%">
+                    </div>
+                    <div class="mySlides4 fade4">
+                      <img src="movie3.PNG" style="width:100%">
+                    </div>
+                    <a id="prev4" class="prev4" onclick="plusSlides4(-1)">&#10094;</a>
+                    <a id="next4" class="next4" onclick="plusSlides4(1)">&#10095;</a>
+                    </div>
+                    <!--<br>
+                    <div style="text-align:center">
+                      <span class="dot"></span> 
+                      <span class="dot"></span> 
+                      <span class="dot"></span> 
+                    </div>-->
+                    <p>Latest Update: </p>
+                    <ul>
+                        <li>February 16, 2021</li>
+                    </ul>
+                    <p>Summary: </p>
+                    <ul>
+                        <li>A functional and responsive movie database website.</li>
+                    </ul>
+                    <p>Timestamps: </p>
+                    <ul>
+                        <li>Not Available</li>
+                    </ul>
+                    <p>Languages / APIs / DBs: </p>
+                    <ul>
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                    <li>PHP</li>
+                    <li>JavaScript</li>
+                    <li>OMDb API</li>
+                    <li>Node.js</li>
+                    <li>JSON</li>
+                    <li>jQuery</li>
+                    <li>TMDb API</li>
+                    <li>MongoDB</li>
+                    <li>emailJS</li>
+                    </ul>
+                    <p>Services performed: </p>
+                    <ul>
+                    <li>100% Front-end</li>
+                    <li>100% Back-end</li>
+                    </ul>
+                    <p>Repository (Private): </p>
+                    <ul>
+                        <li><a href="#">View page source</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <script>
+                    var slideIndex3 = 0;
+                    var slides3 = document.getElementsByClassName("mySlides3");
+                    showSlides3();
+                    function showSlides3() 
+                    {
+                      document.getElementById("next3").style.display="block"; 
+                      document.getElementById("prev3").style.display="none"; 
+                      var i;
+                      //var dots = document.getElementsByClassName("dot3");
+                      for (i = 0; i < slides3.length; i++) {
+                        slides3[i].style.display = "none";  
+                      }
+                      slideIndex3++;
+                      if (slideIndex3 > slides3.length) {slideIndex3 = 1}    
+                      //for (i = 0; i < dots.length; i++) {
+                      //  dots[i].className = dots[i].className.replace(" active3", "");
+                      //}
+                      console.log(slideIndex3);
+                      if(slideIndex3 == 1 || slideIndex3 == 0)
+                      {
+                          document.getElementById("prev3").style.display="none"; 
+                          document.getElementById("next3").style.display="block"; 
+                      }
+                      if(slideIndex3 > 2)
+                      {
+                          document.getElementById("next3").style.display="none"; 
+                          document.getElementById("prev3").style.display="block"; 
+                      }
+                      if(slideIndex3 <= 2 && slideIndex3 > 1)
+                      {
+                        document.getElementById("next3").style.display="block"; 
+                        document.getElementById("prev3").style.display="block"; 
+                      }
+                      slides3[slideIndex3-1].style.display = "block";  
+                      //dots[slideIndex3-1].className += " active3";
+                      setTimeout(showSlides3, 10000); // Change image every 10 seconds
+                    }
+                    var slideIndex2 = 0;
+                    var slides2 = document.getElementsByClassName("mySlides2");
+                    showSlides2();
+                    function showSlides2() 
+                    {
+                      document.getElementById("next2").style.display="block"; 
+                      document.getElementById("prev2").style.display="none"; 
+                      var i;
+                      //var dots = document.getElementsByClassName("dot2");
+                      for (i = 0; i < slides2.length; i++) {
+                        slides2[i].style.display = "none";  
+                      }
+                      slideIndex2++;
+                      if (slideIndex2 > slides2.length) {slideIndex2 = 1}    
+                      //for (i = 0; i < dots.length; i++) {
+                      //  dots[i].className = dots[i].className.replace(" active4", "");
+                      //}
+                      console.log(slideIndex2);
+                      if(slideIndex2 == 1 || slideIndex2 == 0)
+                      {
+                          document.getElementById("prev2").style.display="none";
+                          document.getElementById("next2").style.display="block"; 
+                      }
+                      if(slideIndex2 > 2)
+                      {
+                          document.getElementById("next2").style.display="none";
+                          document.getElementById("prev2").style.display="block"; 
+                      }
+                      if(slideIndex2 <= 2 && slideIndex2 > 1)
+                      {
+                        document.getElementById("next2").style.display="block"; 
+                        document.getElementById("prev2").style.display="block"; 
+                      }
+                      slides2[slideIndex2-1].style.display = "block";  
+                      //dots[slideIndex2-1].className += " active4";
+                      setTimeout(showSlides2, 10000); // Change image every 10 seconds
+                    }
+                    var slideIndex4 = 0;
+                    var slides4 = document.getElementsByClassName("mySlides4");
+                    showSlides4();
+                    function showSlides4() 
+                    {
+                      document.getElementById("next4").style.display="block"; 
+                      document.getElementById("prev4").style.display="none"; 
+                      var i;
+                      //var dots = document.getElementsByClassName("dot2");
+                      for (i = 0; i < slides4.length; i++) {
+                        slides4[i].style.display = "none";  
+                      }
+                      slideIndex4++;
+                      if (slideIndex4 > slides4.length) {slideIndex4 = 1}    
+                      //for (i = 0; i < dots.length; i++) {
+                      //  dots[i].className = dots[i].className.replace(" active4", "");
+                      //}
+                      console.log(slideIndex4);
+                      if(slideIndex4 == 1 || slideIndex4 == 0)
+                      {
+                          document.getElementById("prev4").style.display="none"; 
+                          document.getElementById("next4").style.display="block"; 
+                      }
+                      if(slideIndex4 > 2)
+                      {
+                          document.getElementById("next4").style.display="none"; 
+                          document.getElementById("prev4").style.display="block"; 
+                      }
+                      if(slideIndex4 <= 2 && slideIndex4 > 1)
+                      {
+                        document.getElementById("next4").style.display="block"; 
+                        document.getElementById("prev4").style.display="block"; 
+                      }
+                      slides4[slideIndex4-1].style.display = "block";  
+                      //dots[slideIndex2-1].className += " active4";
+                      setTimeout(showSlides4, 10000); // Change image every 10 seconds
+                    }
+                    function plusSlides2(n) 
+                    {
+                      var newslideIndex = slideIndex2 + n;
+                      if(newslideIndex < 4 && newslideIndex > 0)
+                      {
+                        document.getElementById("next2").style.display="block"; 
+                        document.getElementById("prev2").style.display="block"; 
+                        var i;    
+                        for (i = 0; i < slides2.length; i++) 
+                        {
+                            slides2[i].style.display = "none"; 
+                        }
+                        slideIndex2 = newslideIndex;
+                        slides2[newslideIndex-1].style.display = "block";
+                      }
+                      if(newslideIndex >= 3)
+                      {
+                          document.getElementById("next2").style.display="none"; 
+                      }
+                      if(newslideIndex <= 1)
+                      {
+                          document.getElementById("prev2").style.display="none"; 
+                      }
+                    }
+                    function plusSlides3(n) 
+                    {
+                      var newslideIndex = slideIndex3 + n;
+                      if(newslideIndex < 4 && newslideIndex > 0)
+                      {
+                        document.getElementById("next3").style.display="block"; 
+                        document.getElementById("prev3").style.display="block"; 
+                        var i;    
+                        for (i = 0; i < slides3.length; i++) 
+                        {
+                            slides3[i].style.display = "none"; 
+                        }
+                        slideIndex3 = newslideIndex;
+                        slides3[newslideIndex-1].style.display = "block";
+                      }
+                      if(newslideIndex >= 3)
+                      {
+                          document.getElementById("next3").style.display="none"; 
+                      }
+                      if(newslideIndex <= 1)
+                      {
+                          document.getElementById("prev3").style.display="none"; 
+                      }
+                    }
+                    function plusSlides4(n) 
+                    {
+                      var newslideIndex = slideIndex4 + n;
+                      if(newslideIndex < 4 && newslideIndex > 0)
+                      {
+                        document.getElementById("next4").style.display="block"; 
+                        document.getElementById("prev4").style.display="block"; 
+                        var i;    
+                        for (i = 0; i < slides4.length; i++) 
+                        {
+                            slides4[i].style.display = "none"; 
+                        }
+                        slideIndex4 = newslideIndex;
+                        slides4[newslideIndex-1].style.display = "block";
+                      }
+                      if(newslideIndex >= 3)
+                      {
+                          document.getElementById("next4").style.display="none"; 
+                      }
+                      if(newslideIndex <= 1)
+                      {
+                          document.getElementById("prev4").style.display="none"; 
+                      }
+                    }
+        		   $(".modal3").click(function() {
+                      if (event.target.className == "modal3") {
+                        $(event.target).hide();
+                      }
+                    });
+                </script>
+                <center><div class="footer-center" style="display: inline-block; margin-top: 40px;">
+                    <a class="one" href="https://github.com/TechStudent12"><i id="git" class="fa fa-github" aria-hidden="true" style="text-align: center; font-size: 20px; cursor: pointer; position: relative; top: -20px;"></i></a>
+                    <a class="two" href="https://www.linkedin.com/in/miguel-a-nonaka-pmp%C2%AE-704054191/"><i id="git2" class="fa fa-linkedin-square" aria-hidden="true" style=" text-align: center;font-size: 20px; cursor: pointer; position: relative; top: -20px;"></i></a>
+                    <a class="three" href="index.html"><i id="git3" class="fa fa-home" aria-hidden="true" style="text-align: center; font-size: 20px; cursor: pointer; position: relative; top: -20px;"></i></a>
+                    <a class="four" href="https://drive.google.com/file/d/1SrXknoZHQS5WoIogrFj95mTGDIGMakNj/view?usp=sharing"><i id="git4" class="fa fa-file-text" aria-hidden="true" style="text-align: center; font-size: 18px; cursor: pointer; position: relative; top: -21px;"></i></a>
+                    <a class="five" href="mailto:miguelalejandro177@gmail.com"><i id="git5" class="fa fa-envelope" aria-hidden="true" style="text-align: center; font-size: 18px; cursor: pointer; position: relative; top: -21px;"></i></a>
+                    <a class="six" href="https://github.com/UnwiseStudios/PersonalWebsite"><i id="git6" class="fa fa-code" aria-hidden="true" style="font-size: 18px; cursor: pointer; position: relative; top: -21px;"></i></a>
+                </div></center>
+                <center><a href="https://www.youracclaim.com/badges/06637ebe-6aa8-44b6-9278-50555cf0ebbb/public_url" style="cursor: pointer;"><img id="imgPMP" src="pmp.png" style="margin-bottom: 10px;"></a></center>
+                <center><h2 style="position: relative; top: -15px; color: white; font-size: 15px; font-family: 'Rowdies', cursive;"><strong>&copy;2021 Nonaka Studio</strong></h2></center>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
