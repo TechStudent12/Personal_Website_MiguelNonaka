@@ -1,4 +1,4 @@
-# Personal_Website_MiguelNonaka
+# Personal Website
 ## Introduction
 * 
 ## Technologies
