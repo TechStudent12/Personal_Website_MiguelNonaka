@@ -7,4 +7,4 @@
 * HTML5
 * CSS3
 ## Disclaimer
-* I did not include the images nor the icons that I used in my site. Only the code is available in this repository. 
+* I did not include the images nor the icons that I used in my site. ***Only the code is available in this repository***. 
